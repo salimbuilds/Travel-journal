@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    font-family: "Inter" , sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    
+}
+
+.header-container{
+    background:#F55A5A;
+    color: white;
+   padding: 25px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-container{
+    display: flex;
+    gap: 4px;
+    text-align: center;
+}
+.image-global{
+    width: 24px;
+    height: 24px;
+    
+}
+.nav-span{
+    color: white;
+    font-size: 14.46px;
+    font-weight: 500;
+    
+}
+.entries-container{
+    display: grid;
+    grid-column: 1;
+    padding:10px ;
+    justify-content: center;
+    
+
+}
+.card-container{
+    
+    display: flex;
+    flex: 1;
+    gap: 15px;
+    align-items: flex-start;
+    padding:15px ;
+    border-bottom: 2px solid black;
+}
+.information-container{
+    padding: 8px;
+}
+.marker-p{
+    display: flex;
+    gap: 6px;
+    padding: 4px;
+    align-items: center;
+}
+ .img-marker{
+    width: 18px;
+    height: 18px;
+}
+.google{
+    text-decoration: underline;
+    color: #918E9B;
+    margin-left: 15px;
+}
+.mount{
+    font-size: 30px;
+    font-weight: bold;
+    color: #2B283A;
+}
+.date{
+    font-size: 12.24px;
+    color: #2B283A;
+}
+.info{
+    font-size:12.24px ;
+      color: #2B283A;
+      line-height: 1rem;
+}
+.mountain-img{
+      width: 320px;
+      height: auto;
+}
